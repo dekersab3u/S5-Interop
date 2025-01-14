@@ -72,8 +72,15 @@ table th {
 
 #bikes
 {
-    min-height:25vh;
+    min-height:35vh;
 }
+
+.leaflet-popup {
+    max-width: 20vw;
+    font-size: 0.8vw;
+    max-height:25vh;
+}
+
 
 /* Style pour les écrans mobiles */
 @media (max-width: 768px) {
