@@ -95,6 +95,10 @@ $weatherHtml = $proc->transformToXML($xml);
 </head>
 <body>
 
+    <div id="github">
+        <p>Lien github : <a href="https://github.com/dekersab3u/S5-Interop" target="_blank">https://github.com/dekersab3u/S5-Interop</a> </p>
+    </div>
+
     <h1>Météo et Circulation</h1>
     <p>Localisation détectée : <?php echo htmlspecialchars($city); ?></p>
     <?php echo $weatherHtml; ?>
