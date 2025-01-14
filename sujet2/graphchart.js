@@ -1,5 +1,4 @@
-import Chart from 'chart.js/auto';
-
+//import {Chart} from "chart.js";
 
 export function createCovidGraph(data) {
 
@@ -7,7 +6,7 @@ export function createCovidGraph(data) {
     const values = data.map(entry => entry.value); // Contamination levels
 
 
-    const ctx = document.getElementById('epidemics').getContext('2d');
+    const ctx = document.getElementById('epidemics').querySelector('canvas');
 
     new Chart(ctx, {
         type: 'line',
@@ -25,6 +24,7 @@ export function createCovidGraph(data) {
         options: {
             responsive: true,
             maintainAspectRatio: false,
+            aspectRatio: 1,
             scales: {
                 x: {
                     title: {

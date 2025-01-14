@@ -84,6 +84,11 @@ table th {
         padding: 2vh 1.5vw;
     }
 
+    #epidemics #covidChart
+    {
+        min-height:200px;
+    }
+
     table th,
     table td {
         font-size: 1.8vw;

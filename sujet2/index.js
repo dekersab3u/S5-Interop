@@ -1,5 +1,5 @@
-import {fetchCovidData} from "./sars-cov2";
-import {createCovidGraph} from "./graphchart";
+import {fetchCovidData} from "./sars-cov2.js";
+import {createCovidGraph} from "./graphchart.js";
 
 const maxevilleData = await fetchCovidData();
 
